@@ -7,6 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -302,11 +303,105 @@ body {
             flex-direction: row-reverse;
     margin-left: 10%;
   }
+  .pizza {
+    background: url(../images/second_main_Background.png) 0 0/100% no-repeat;
+    height: 1082px;
+  }
+  .pizza .pizza__text {
+    width: 100%;
+    display: inline-block;
+    margin: 55px auto 0 auto;
+  }
+  .pizza .pizza__text h1 {
+    text-align: center;
+    font-family: "Reey";
+    font-size: 58.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #f8f6f1;
+  }
+  .pizza .pizza__text p {
+    padding-left: 22%;
+    padding-right: 22%;
+    margin-top: 65px;
+    margin-bottom: 41px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #f8f6f1;
+  }
+  .pizza .pizza__text .pizza__line {
+    margin: 0 auto;
+    width: 162px;
+    height: 10px;
+    background-color: #fafafa;
+  }
+  .pizza .pizza__img {
+    margin: 30px 30% 0 35%;
+    height: 850px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lorem {
+    margin-top: 139px;
+  }
+  .lorem .lorem__colums {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .lorem .lorem__colums .colums__text {
+    width: 361px;
+  }
+  .lorem .lorem__colums .colums__text h1 {
+    text-align: center;
+    font-family: "Reey";
+    font-size: 41.7px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #393939;
+  }
+  .lorem .lorem__colums .colums__text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18.8px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333d42;
+  }
+  .lorem .lorem__p {
+    margin-top: 233px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3f3f3f;
+  }
+  .lorem h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20.9px;
+    color: #3f3f3f;
+  }
 }
 
 @media (min-width: 1400px) {
   .about {
     background: url(../images/main_backgraynd.png) 50%/cover no-repeat;
+  }
+  .pizza {
+    background: url(../images/second_main_Background.png) 50%/cover no-repeat;
   }
 }
 /*# sourceMappingURL=style.css.map */
