@@ -1,3 +1,3 @@
 # Italian_Food
-Landing-page
+Landing-page,
 Простенький лэндинг собранный с помощью Webpack
